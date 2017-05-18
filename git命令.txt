@@ -1,0 +1,38 @@
+git命令
+	1：clear 清除屏幕
+	2：pwd 查看当前所在路径
+	3：ls 目录清单，所在文件夹下面查看所有的文件
+	4：cd 进入某一个文件
+	5：mkdir 创建文件夹
+	7：ls -a  查看当前目录所有文件baokuo (包括隐藏文件)
+	8: touch 创建文件  
+		cd .>文件名
+
+	git config --global user.name '名字'
+	git config --global user.email '邮箱'
+
+	6：git init  创建仓库
+	9: git add 告诉仓库添加了一个版本
+	9.1 : git add .  提交所有工作区的文件到暂存区
+	10：git commit -m ''  提交版本到仓库{ m 用来注释提交的内容}
+	11：git diff 查看被修改的内容
+	12：git status 查看工作区和暂存区里面是否有需要提交的文件{
+			红色字体代表我们文件在工作区，
+			绿色字体代表我们的文件在暂存区，
+			nothing commit 代表我们的文件都提交到了仓库}
+	13：git log 查看提交的日志
+	14: git reset --hard HEAD^  回退到上一个版本(HEAD^ 上一个版本，HEAD^^上上个版本，HEAD^^^上上上个版本，以此类推)
+	15：git reset --hard XXX  可以通过commit ID 值回退到对应的版本
+	16：git reflog  查看commit id 值
+	17：git checkout --   撤销修改
+	18：rm  删除文件
+	19: git clone  从服务器端克隆项目到当前文件夹下
+	20: git push -u origin master  推 把代码提交到远程仓库的主分支
+	21: git pull  拉 从远程仓库拉取最新项目到本地
+						更新本地仓库的内容
+	22：git branch  查看分支{后面加上 人名 就是创建分支}
+
+
+	$$： .git文件  用来记录项目(文件)版本的[不要随便修改]
+	.gitignore  上传远程仓库时，忽略某文件
+
