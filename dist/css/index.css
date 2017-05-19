@@ -1,0 +1,312 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul, ol, li, dl, dt, dd {
+  list-style: none; }
+
+main .wrap01 {
+  width: 1204px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+  border-top: 1px solid #999; }
+  main .wrap01 .h301 {
+    width: 1204px;
+    height: 70px;
+    float: left; }
+    main .wrap01 .h301 span:nth-child(1) {
+      float: left;
+      line-height: 50px; }
+      main .wrap01 .h301 span:nth-child(1) img {
+        margin-top: 10px; }
+    main .wrap01 .h301 span:nth-child(2) {
+      float: right;
+      line-height: 50px; }
+    main .wrap01 .h301 span a:hover {
+      text-decoration: underline;
+      cursor: pointer; }
+  main .wrap01 .wrap01Xia {
+    float: left;
+    height: 650px; }
+    main .wrap01 .wrap01Xia .wrap01Left {
+      float: left;
+      width: 244px;
+      height: 615px;
+      overflow: hidden; }
+      main .wrap01 .wrap01Xia .wrap01Left img {
+        width: 244px;
+        height: 596px; }
+    main .wrap01 .wrap01Xia .wrap01Right {
+      float: right;
+      height: 600px;
+      width: 960px; }
+      main .wrap01 .wrap01Xia .wrap01Right dl {
+        float: left;
+        width: 230px;
+        margin: 7px 5px;
+        cursor: pointer; }
+        main .wrap01 .wrap01Xia .wrap01Right dl dt {
+          height: 230px;
+          overflow: hidden; }
+          main .wrap01 .wrap01Xia .wrap01Right dl dt img {
+            width: 230px; }
+        main .wrap01 .wrap01Xia .wrap01Right dl dd p span {
+          font-size: 14px; }
+          main .wrap01 .wrap01Xia .wrap01Right dl dd p span a:hover {
+            cursor: pointer;
+            text-decoration: underline; }
+        main .wrap01 .wrap01Xia .wrap01Right dl dd p #lihejia {
+          color: #999; }
+        main .wrap01 .wrap01Xia .wrap01Right dl dd p:nth-child(1) {
+          float: left;
+          width: 120px; }
+        main .wrap01 .wrap01Xia .wrap01Right dl dd p:nth-child(2) {
+          float: right;
+          width: 80px; }
+          main .wrap01 .wrap01Xia .wrap01Right dl dd p:nth-child(2) img {
+            float: right; }
+
+main .wrap02 {
+  width: 1204px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  main .wrap02 .h302 {
+    width: 1204px;
+    border-top: 1px solid #999; }
+    main .wrap02 .h302 span a:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+    main .wrap02 .h302 span:nth-child(1) {
+      float: left;
+      line-height: 50px; }
+      main .wrap02 .h302 span:nth-child(1) img {
+        margin-top: 10px; }
+    main .wrap02 .h302 span:nth-child(2) {
+      float: right;
+      line-height: 50px; }
+  main .wrap02 dl {
+    width: 230px;
+    margin: 5px 5px;
+    cursor: pointer; }
+    main .wrap02 dl dt {
+      height: 230px;
+      overflow: hidden;
+      position: relative; }
+      main .wrap02 dl dt img {
+        width: 230px; }
+      main .wrap02 dl dt p {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 5px;
+        background: red;
+        color: white; }
+    main .wrap02 dl dd p:nth-child(1) {
+      float: left;
+      width: 130px; }
+    main .wrap02 dl dd p:nth-child(2) {
+      float: right;
+      width: 70px; }
+      main .wrap02 dl dd p:nth-child(2) img {
+        float: right; }
+    main .wrap02 dl dd p #lihejia {
+      color: #999; }
+    main .wrap02 dl dd p span {
+      font-size: 14px; }
+
+main .xinXiLan {
+  width: 1200px;
+  margin: 0 auto; }
+  main .xinXiLan img {
+    width: 1200px;
+    margin-bottom: 50px; }
+
+main .wrap03 {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  main .wrap03 .h303 {
+    width: 1204px;
+    border-top: 1px solid #999; }
+    main .wrap03 .h303 span:nth-child(1) {
+      float: left;
+      line-height: 50px; }
+      main .wrap03 .h303 span:nth-child(1) img {
+        margin-top: 10px; }
+    main .wrap03 .h303 span:nth-child(2) {
+      float: right;
+      line-height: 50px; }
+    main .wrap03 .h303 span a:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+  main .wrap03 dl {
+    width: 230px;
+    margin: 5px 5px;
+    cursor: pointer; }
+    main .wrap03 dl dt {
+      height: 230px;
+      overflow: hidden;
+      position: relative; }
+      main .wrap03 dl dt img {
+        width: 230px; }
+      main .wrap03 dl dt p {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 5px;
+        background: #f00;
+        color: white; }
+    main .wrap03 dl dd p:nth-child(1) {
+      float: left;
+      width: 100px; }
+    main .wrap03 dl dd p:nth-child(2) {
+      float: right;
+      line-height: 50px; }
+      main .wrap03 dl dd p:nth-child(2) img {
+        float: right; }
+    main .wrap03 dl dd p span a:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+    main .wrap03 dl dd p #lihejia {
+      color: #999; }
+
+main .niuNan {
+  width: 1200px;
+  margin: 0 auto; }
+  main .niuNan img {
+    width: 1200px;
+    margin-bottom: 50px; }
+
+main .wrap04 {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  main .wrap04 .h304 {
+    width: 1204px;
+    border-top: 1px solid #999; }
+    main .wrap04 .h304 span:nth-child(1) {
+      float: left;
+      line-height: 50px; }
+      main .wrap04 .h304 span:nth-child(1) img {
+        margin-top: 10px; }
+    main .wrap04 .h304 span:nth-child(2) {
+      float: right;
+      line-height: 50px; }
+    main .wrap04 .h304 span a:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+  main .wrap04 dl {
+    width: 230px;
+    margin: 5px 5px;
+    cursor: pointer; }
+    main .wrap04 dl dt {
+      height: 230px;
+      overflow: hidden; }
+      main .wrap04 dl dt img {
+        width: 230px; }
+    main .wrap04 dl dd p:nth-child(1) {
+      float: left;
+      width: 110px; }
+    main .wrap04 dl dd p:nth-child(2) {
+      float: right;
+      line-height: 50px; }
+      main .wrap04 dl dd p:nth-child(2) img {
+        float: right; }
+    main .wrap04 dl dd p span a:hover {
+      cursor: pointer;
+      text-decoration: underline; }
+    main .wrap04 dl dd p #lihejia {
+      color: #999; }
+
+footer {
+  width: 1204px;
+  margin: 0 auto;
+  border-top: 1px solid #aaa; }
+  footer .huiyuanquanyi {
+    width: 1104px; }
+    footer .huiyuanquanyi ul {
+      display: -webkit-flex;
+      justify-content: space-around;
+      padding: 20px; }
+      footer .huiyuanquanyi ul .xiaoshou {
+        width: 250px;
+        height: 60px;
+        overflow: hidden;
+        padding-left: 20px;
+        border-left: 1px solid #aaa;
+        list-style: none; }
+      footer .huiyuanquanyi ul #yuanchandi {
+        border-left: none; }
+  footer .center {
+    width: 1204px;
+    margin: 0 auto;
+    border-top: 1px solid #aaa;
+    display: -webkit-flex;
+    justify-content: space-around; }
+    footer .center .zuo {
+      text-align: center;
+      width: 300px; }
+      footer .center .zuo .logo02 {
+        margin-top: 35px; }
+        footer .center .zuo .logo02 img {
+          width: 280px; }
+    footer .center .zhong {
+      padding: 20px 0;
+      display: -webkit-flex;
+      justify-content: space-around;
+      text-align: center; }
+      footer .center .zhong dl dt img {
+        width: 140px;
+        margin: 0 15px; }
+    footer .center .you {
+      width: 390px;
+      display: -webkit-flex;
+      justify-content: space-around; }
+      footer .center .you ul li {
+        list-style: none;
+        line-height: 25px;
+        font-size: 14px; }
+        footer .center .you ul li a {
+          color: #999; }
+        footer .center .you ul li a:hover {
+          text-decoration: underline; }
+      footer .center .you ul #firstli {
+        margin-top: 20px;
+        line-height: 60px;
+        font-size: 18px; }
+  footer .jingshi {
+    width: 1204px;
+    border-top: 1px solid #aaa;
+    padding-top: 20px; }
+    footer .jingshi div p {
+      color: #999;
+      text-align: center; }
+      footer .jingshi div p a {
+        color: #999; }
+      footer .jingshi div p a:hover {
+        text-decoration: underline; }
+    footer .jingshi div .GuoYuanWangGou {
+      display: -webkit-flex;
+      justify-content: center; }
+      footer .jingshi div .GuoYuanWangGou dl {
+        margin-left: 20px; }
+        footer .jingshi div .GuoYuanWangGou dl dd {
+          color: red; }
+        footer .jingshi div .GuoYuanWangGou dl .wanggou a img {
+          width: 36px;
+          margin-left: 15px; }
