@@ -7,6 +7,24 @@ ajax.onreadystatechange = function () {
 		if ((ajax.status >= 200 && ajax.status <= 206) || ajax.status == 304) {
 			var data = JSON.parse(ajax.responseText);
 
+			// 轮播
+			for (var i = 6; i<12; i++) {
+				$("<p/>").html('<a href="###"><img src="' + data[i].urlJpg + '"></a>').appendTo($('.juan'));
+			}
+			for (var j = 0; j<$(".juan p").length; j++) {
+				$(".juan p").eq(j).css({marginLeft: j * $(".juan")/6 + "px"});
+			}
+			// 另加图
+			$("<p/>").html('<a href="###"><img src="' + data[6].urlJpg + '"></a>').appendTo($('.juan'));
+			setTimeout(function () {
+				$(".lunbo").css("height", $(".juan p").height() + "px");
+			},100);
+
+			// 轮播下的精选图
+			for (var i = 12; i<16; i++) {
+				$("<li/>").html('<a href="###"><img src="' + data[i].urlJpg + '"></a>').appendTo($('.wrapJing ul'));
+			}
+
 			// 中部排版01
 			for (var i = 16; i<24; i++) {
 				$("<dl/>").html('<dt><img src="' + data[i].urlJpg + '"></dt><dd><p><span>海南金黄芒果</span><br/><span id="lihejia">￥565.08/22个</span></p><p><img src="images/gouwu.png" /></p></dd>').appendTo($('.wrap01Right'));
@@ -56,9 +74,9 @@ ajax.onreadystatechange = function () {
 			$(".zhong img").eq(1).attr("src", data[3].urlJpg);
 
 			// 111111
-			for (var key in data) {
-				$('<ul/>').html('<li style="float:left"><img src="' + data[key].urlJpg + '"></li>').appendTo($('body'));
-			}
+			// for (var key in data) {
+			// 	$('<ul/>').html('<li style="float:left"><img src="' + data[key].urlJpg + '"></li>').appendTo($('body'));
+			// }
 		}
 	}
 }
@@ -111,7 +129,7 @@ $.ajax({
 	success: function (data) {
 		
 		// logo图标
-		$('.logo img').attr('src', data[0].urlSvg);
+		// $('.logo img').attr('src', data[0].urlSvg);
 		
 		// 底部logo图标和工商图标
 		$('.logo02 img').attr('src', data[0].urlSvg)
@@ -122,3 +140,89 @@ $.ajax({
 	}
 });
 
+// 轮播计时器
+var t = 0;
+var time;
+function autoPlay() {
+	time = setInterval(function () {
+		var a = $(".lunbo").width();
+		$(".juan").css("left", -t*a+"px").css("transition","1s");
+		t++;
+		if (t>6) {
+			t = 0;
+			setTimeout(function () {
+				$(".juan").css("left", -t*a+"px").css("transition","0s");
+				t++;
+			},1000);
+		}
+		$(".lunbo").css("height", $(".juan p").height() + "px");
+	},3000);
+}
+autoPlay();
+
+// 鼠标划上暂停和启动
+$(".lunbo").mouseenter(function () {
+	clearInterval(time);
+}).mouseleave(function () {
+	autoPlay();
+});
+
+//鼠标放上显示拿过消失
+	$('#shhai').mouseenter(function(){
+		$('#dizhi').css('display','block');
+		$('#shhai').css('background','#fff');
+	 }).mouseleave(function(){
+	 	$('#dizhi').css('display','none');
+	 	$('#shhai').css('background','#ccc');
+	 });
+	 $('#dizhi').mouseenter(function(){
+		$('#dizhi').css('display','block');
+		$('.dizhi1').css('display','block');
+	 	$('#shhai').css('background','#fff');
+	 }).mouseleave(function() {
+	 	$('#dizhi').css('display','none');
+	 	$('#shhai').css('background','#ccc');
+
+	});
+
+	 //果园公告
+	 $('.guogao').mouseenter(function(){
+	 	
+	 		$('.guogao').css('background','#fff');
+	 		$('.gong').css('display','block');
+	 
+	 }).mouseleave(function() {
+	 		$('.guogao').css('background','#ccc');
+	 		$('.gong').css('display','none');
+	 });
+
+	 $('.gong').mouseenter(function() {
+	 	$('.gong').css('display','block');
+	 }).mouseleave(function() {
+
+	 		$('.guogao').css('background','#ccc');
+	 		$('.gong').css('display','none');
+
+	 });
+
+
+	 $('#shg').mouseenter(function() {
+	 	$('#shg').css('background','#fff');
+	 	$('.shouji').css('display','block');
+
+	 }).mouseleave(function(){
+	 	$('#shg').css('background','#ccc');
+	 	$('.shouji').css('display','none');
+	 });
+	 $('.shouji').mouseenter(function() {
+	 	$('#shg').css('background','#fff');
+	 	$('.shouji').css('display','block');
+	 }).mouseleave(function() {
+	 	$('.shouji').css('display','none');
+	 	$('#shg').css('background','#ccc');
+	 });
+
+	// 侧边栏底部回顶部
+	$(".ce").click(function () {
+		$(document).scrollTop(0);
+	});

@@ -1,6 +1,8 @@
 $colors:#999;
 $widths:1204px;
+$widths2:100%;
 
+// 全局
 *{
 	margin:0;
 	padding:0;
@@ -12,8 +14,264 @@ ul,ol,li,dl,dt,dd{
 	list-style: none;
 }
 
+// header
+#denglu{
+	width: 1365px;
+	height: 31px;
+	background: #ccc;
+	.left{
+		width: 200px;
+		height: 30px;
+		margin-left: 20px;
+		line-height: 30px;
+		font-size: 12px;
+		color: #999;
+		float: left;
+		#shhai{
+			padding: 10px;
+		}
+		span {
+			.da{
+				color: #64a131;
+			}
+		}
+	}
+	#dizhi{
+		width: 260px;
+		height: 379px;
+		background: #fff;
+		position: absolute;
+		left: 19px;
+		top: 30px;
+		overflow: auto;
+		color: #999;
+		font-size: 15px;
+		border-left: 1px solid #ccc;
+		border-right: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+		display: none;
+		z-index:99;
+		p{
+			width: 85%;
+			background: #ccc;
+			margin-left: 5%;
+			padding: 5px;
+		}
+		ul{
+			li{
+				width: 80%;
+				margin-left: 20px;
+				border-bottom: 1px solid #ccc;
+				padding-top: 10px;
+				padding-bottom: 10px;
+			}
+			li:hover{
+				background: #ccc;
+			}
+		}
+	}
+	.right{
+		width: 550px;
+		height: 30px;
+		float: right;
+		ul{
+			li{
+				float: left;
+				margin-left: 30px;
+				color: #999;
+				font-size: 12px;
+				line-height: 29px;
+				a{
+					color: #999;
+					font-size: 12px;
+				}
+				a:hover{
+					color: red;
+					border-bottom: 1px solid red;
+				}
+				span{
+					font-weight: bold;
+				}
+			}
+			.guogao{
+				padding: 10px;
+			}
+			#shg{
+				padding: 10px;
+			}
+		}
+		.gong{
+			width: 245px;
+			height: 168px;
+			border-left: 1px solid #ccc;
+			border-right: 1px solid #ccc;
+			border-bottom: 1px solid #ccc;
+			box-shadow: 4px 1px 9px #ccc, 
+			1px 1px 5px #ccc;
+			position: absolute;
+			top: 30px;
+			right: 233px;
+			background: #fff;
+			z-index:99;
+			display: none;
+			p{
+				line-height: 40px;
+				border-bottom: 1px solid #ccc;
+				a{
+					font-size: 14px;
+					margin-left:20px;
+					color: #999;
+				}
+				a:hover{
+					color: red;
+				}
+			}
+			span{
+				margin-left: 80px;
+				a{
+					color: green;
+					font-size: 14px;
+				}
+			}
+		}
+		.shouji{
+			width: 292px;
+			height: 292px;
+			box-shadow: 5px 5px 5px #ccc,
+			5px 5px 5px #ccc;
+			position: absolute;
+			top: 31px;
+			right: 55px;
+			background: #fff;
+			z-index:99;
+			display: none;
+			p{
+				text-align: center;
+				line-height:30px;
+				font-size: 12px;
+				span{
+					color: green;
+				}
+			}
+			div{
+				width: 100%;
+				height: 117px;
+				border-bottom: 1px solid #ccc;
+				margin-top: 12px;
+				img{
+					width: 100px;
+					margin-left: 20px;
+					float: left;
+				}
+				#guoweixin{
+					float: left;
+					margin-left: 10px;
+				}
+			}
+		}
+	}
+}
+
+// 购物车
+.gouwu{
+	width: 1365px;
+	height: 105px;
+	box-shadow: 1px 5px 3px #ccc;
+	.logo{
+		float: left;
+	}
+	.lie{
+		width: 500px;
+		height: 105px;
+		line-height: 105px;
+		float: left;
+		ul{
+			li{
+				float: left;
+				padding-left: 25px;
+				padding-right: 25px;
+				a{
+					color: #000;
+				}
+				a:hover{
+					color: red;
+					border-bottom: 1px solid red;
+					background: #ccc;
+				}
+			}
+			.guo{
+				color: green;
+			}
+		}
+	}
+	.che{
+		width: 300px;
+		height: 105px;
+		float: right;
+		margin-right: 20px;
+		input{
+			border-top-style: none;
+			border-left-style: none;
+			border-right-style: none;
+			border-bottom-color: #000;
+			margin-top: 50px;
+		}
+		.txt{
+			color: #ccc;
+			font-size: 12px;
+		}
+	}
+}
+
+// 主要的
 main{
+	clear: both;
+	// 轮播
+	.lunbo{
+		clear: both;
+		width:100%;
+		overflow: hidden;
+		position: relative;
+		z-index:1;
+		.juan{
+			width:700%;
+			position: absolute;
+			p{
+				float: left;
+				width:1/7*100%;
+				a{
+					width:100%;
+					img{
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+	// 精选果品
+	.wrapJing{
+		width:$widths;
+		margin: 0 auto;
+		ul{
+			width: 100%;
+			display: flex;
+			display: -webkit-flex;
+			justify-content:space-between;
+			padding:10px 0 40px 0px;
+			li{
+				width: 22%;
+				a{
+					img{
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+
+	// 果园推荐
 	.wrap01{
+		clear: both;
 		width:$widths;
 		margin:0 auto;
 		padding-bottom:80px;
@@ -42,7 +300,6 @@ main{
 		}
 		.wrap01Xia{
 			float: left;
-			height: 650px;
 			.wrap01Left{
 				float: left;
 				width:244px;
@@ -98,7 +355,10 @@ main{
 			}
 		}
 	}
+
+	// 全球鲜果
 	.wrap02{
+		clear: both;
 		width:$widths;
 		margin: 0 auto;
 		margin-bottom:50px;
@@ -134,12 +394,12 @@ main{
 			dt{
 				height:230px;
 				overflow:hidden;
-				position: relative;
+				// position: relative;
 				img{
 					width:230px;
 				}
 				p{
-					position: absolute;
+					// position: absolute;
 					top: 0;
 					left: 0;
 					padding: 5px;
@@ -170,6 +430,8 @@ main{
 			}
 		}
 	}
+
+	// 新西兰芒果
 	.xinXiLan{
 		width:1200px;
 		margin:0 auto;
@@ -178,6 +440,8 @@ main{
 			margin-bottom:50px;
 		}
 	}
+	
+	// 生鲜美食
 	.wrap03{
 		width:1200px;
 		margin: 0 auto;
@@ -214,12 +478,12 @@ main{
 			dt{
 				height:230px;
 				overflow:hidden;
-				position: relative;
+				// position: relative;
 				img{
 					width:230px;
 				}
 				p{
-					position: absolute;
+					// position: absolute;
 					top: 0;
 					left: 0;
 					padding: 5px;
@@ -253,6 +517,8 @@ main{
 			}
 		}
 	}
+	
+	// 巴西牛腩块
 	.niuNan{
 		width:1200px;
 		margin:0 auto;
@@ -261,6 +527,8 @@ main{
 			margin-bottom:50px;
 		}
 	}
+
+	// 礼品卡卷
 	.wrap04{
 		width:1200px;
 		margin: 0 auto;
@@ -329,11 +597,18 @@ main{
 	}
 }
 
+// 清楚浮动
+// .clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+// .clearfix{*+height:1%;}
+
 // 脚部
 footer{
+
+	overflow: hidden;
 	width:1204px;
 	margin:0 auto;
 	border-top: 1px solid #aaa;
+
 	// 上
 	.huiyuanquanyi{
 		width:1104px;
@@ -354,6 +629,7 @@ footer{
 			}
 		}
 	}
+
 	// 中
 	.center{
 		width:1204px;
@@ -372,6 +648,7 @@ footer{
 				}
 			}
 		}
+
 		// 正中
 		.zhong{
 			padding:20px 0;
@@ -387,6 +664,7 @@ footer{
 				}
 			}
 		}
+
 		// 中右
 		.you{
 			width:390px;
@@ -412,6 +690,7 @@ footer{
 			}
 		}
 	}
+
 	// 下
 	.jingshi{
 		width:1204px;
@@ -448,4 +727,18 @@ footer{
 			}
 		}
 	}
+}
+
+//侧边栏底部回顶部
+.ce{
+	position:fixed;
+	right: 0;
+	bottom: 0;
+	img{
+		width:100%;
+	}
+}
+
+@media screen and (max-width: 1204px) {
+	
 }

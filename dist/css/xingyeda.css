@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+ul li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+body {
+  position: relative; }
+
+.denglu {
+  width: 1365px;
+  height: 31px;
+  background: #ccc; }
+  .denglu .left {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
+    float: left; }
+    .denglu .left #shhai {
+      padding: 10px; }
+    .denglu .left span .da {
+      color: #64a131; }
+  .denglu #dizhi {
+    width: 260px;
+    height: 379px;
+    background: #fff;
+    position: absolute;
+    left: 19px;
+    top: 30px;
+    overflow: auto;
+    color: #999;
+    font-size: 15px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: none;
+    z-index: 33; }
+    .denglu #dizhi p {
+      width: 85%;
+      background: #ccc;
+      margin-left: 5%;
+      padding: 5px; }
+    .denglu #dizhi ul li {
+      width: 80%;
+      margin-left: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+      .denglu #dizhi ul li:hover {
+        background: #ccc; }
+  .denglu .right {
+    width: 550px;
+    height: 30px;
+    float: right; }
+    .denglu .right ul .guogao {
+      padding: 10px; }
+    .denglu .right ul #shg {
+      padding: 10px; }
+    .denglu .right ul li {
+      float: left;
+      margin-left: 30px;
+      color: #999;
+      font-size: 12px;
+      line-height: 29px; }
+      .denglu .right ul li a {
+        color: #999;
+        font-size: 12px; }
+        .denglu .right ul li a:hover {
+          color: red;
+          border-bottom: 1px solid red; }
+      .denglu .right ul li span {
+        font-weight: bold; }
+    .denglu .right .gong {
+      width: 245px;
+      height: 168px;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      box-shadow: 4px 1px 9px #ccc,  1px 1px 5px #ccc;
+      position: absolute;
+      top: 30px;
+      right: 233px;
+      background: #fff;
+      display: none;
+      z-index: 22; }
+      .denglu .right .gong p {
+        line-height: 40px;
+        border-bottom: 1px solid #ccc; }
+        .denglu .right .gong p a {
+          font-size: 14px;
+          margin-left: 20px;
+          color: #999; }
+          .denglu .right .gong p a:hover {
+            color: red; }
+      .denglu .right .gong span {
+        margin-left: 80px; }
+        .denglu .right .gong span a {
+          color: green;
+          font-size: 14px; }
+    .denglu .right .shouji {
+      width: 292px;
+      height: 292px;
+      box-shadow: 5px 5px 5px #ccc, 5px 5px 5px #ccc;
+      position: absolute;
+      top: 31px;
+      right: 55px;
+      background: #fff;
+      display: none;
+      z-index: 11; }
+      .denglu .right .shouji p {
+        text-align: center;
+        line-height: 30px;
+        font-size: 12px; }
+        .denglu .right .shouji p span {
+          color: green; }
+      .denglu .right .shouji div {
+        width: 100%;
+        height: 117px;
+        border-bottom: 1px solid #ccc;
+        margin-top: 12px; }
+        .denglu .right .shouji div img {
+          width: 100px;
+          margin-left: 20px;
+          float: left; }
+        .denglu .right .shouji div #guoweixin {
+          float: left;
+          margin-left: 10px; }
+
+.gouwu {
+  width: 1365px;
+  height: 105px;
+  box-shadow: 1px 5px 3px #ccc; }
+  .gouwu .logo {
+    float: left; }
+  .gouwu .lie {
+    width: 500px;
+    height: 105px;
+    line-height: 105px;
+    float: left; }
+    .gouwu .lie ul .guo {
+      color: green; }
+    .gouwu .lie ul li {
+      float: left;
+      padding-left: 25px;
+      padding-right: 25px; }
+      .gouwu .lie ul li a {
+        color: #000; }
+        .gouwu .lie ul li a:hover {
+          color: red;
+          border-bottom: 1px solid red;
+          background: #ccc; }
+  .gouwu .che {
+    width: 300px;
+    height: 105px;
+    float: right;
+    margin-right: 20px; }
+    .gouwu .che input {
+      border-top-style: none;
+      border-left-style: none;
+      border-right-style: none;
+      border-bottom-color: #000;
+      margin-top: 50px; }
+    .gouwu .che .txt {
+      color: #ccc;
+      font-size: 12px; }
+
+.xingyd {
+  width: 1365px;
+  height: 647px;
+  overflow: hidden;
+  position: relative;
+  top: 40px; }
+  .xingyd p {
+    position: absolute;
+    width: 1365px; }
+  .xingyd .yebg img {
+    width: 1800px;
+    margin-left: -300px; }
+  .xingyd .che {
+    left: 350px;
+    top: 455px;
+    z-index: 3; }
+  .xingyd .xyd-bg {
+    top: 100px;
+    left: -2020px; }
+  .xingyd .yun-bg {
+    left: 50px;
+    top: 50px; }
+    .xingyd .yun-bg img {
+      width: 1100px;
+      margin-top: 100px; }
+
+.six {
+  width: 100%;
+  background: #ccc; }
+  .six .fourpart {
+    width: 1015px;
+    margin: 0 auto;
+    padding: 40px 0; }
+  .six .service {
+    width: 555px;
+    height: 142px;
+    margin: 0 auto;
+    padding-bottom: 20px; }
+  .six .table {
+    width: 1019px;
+    height: 420px;
+    margin: 0 auto; }
+    .six .table p {
+      width: 100%;
+      text-align: right; }
+      .six .table p #state {
+        color: #333;
+        font-size: 14px;
+        text-decoration: underline; }
+
+.freshpic {
+  background: #ccc; }
+  .freshpic .freshpic {
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: space-around; }
+    .freshpic .freshpic img {
+      width: 1365px; }
+  .freshpic .freshtitle {
+    width: 900px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 20px; }
+    .freshpic .freshtitle img {
+      width: 900px;
+      height: 192px; }
+
+.wei {
+  width: 1365px;
+  height: 500px;
+  padding-top: 30px; }
+  .wei .tu {
+    width: 100%;
+    height: 105px;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999; }
+    .wei .tu img {
+      margin-top: 20px;
+      border-right: 1px solid #999;
+      margin-left: 50px;
+      padding-right: 40px; }
+  .wei .xin {
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #999; }
+    .wei .xin div {
+      width: 328px;
+      height: 203px;
+      float: left;
+      margin-left: 100px; }
+      .wei .xin div img {
+        margin-top: 10px; }
+  .wei .tst {
+    width: 100%;
+    text-align: center;
+    color: #999;
+    font-size: 13px; }
+    .wei .tst img {
+      margin: 0 auto;
+      width: 30px;
+      margin-left: 20px; }
+
+.ce {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 9; }
+  .ce img {
+    width: 100%; }

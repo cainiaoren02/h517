@@ -8,232 +8,416 @@ a {
 ul, ol, li, dl, dt, dd {
   list-style: none; }
 
-main .wrap01 {
-  width: 1204px;
-  margin: 0 auto;
-  padding-bottom: 80px;
-  border-top: 1px solid #999; }
-  main .wrap01 .h301 {
-    width: 1204px;
-    height: 70px;
+#denglu {
+  width: 1365px;
+  height: 31px;
+  background: #ccc; }
+  #denglu .left {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    line-height: 30px;
+    font-size: 12px;
+    color: #999;
     float: left; }
-    main .wrap01 .h301 span:nth-child(1) {
+    #denglu .left #shhai {
+      padding: 10px; }
+    #denglu .left span .da {
+      color: #64a131; }
+  #denglu #dizhi {
+    width: 260px;
+    height: 379px;
+    background: #fff;
+    position: absolute;
+    left: 19px;
+    top: 30px;
+    overflow: auto;
+    color: #999;
+    font-size: 15px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    display: none;
+    z-index: 99; }
+    #denglu #dizhi p {
+      width: 85%;
+      background: #ccc;
+      margin-left: 5%;
+      padding: 5px; }
+    #denglu #dizhi ul li {
+      width: 80%;
+      margin-left: 20px;
+      border-bottom: 1px solid #ccc;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    #denglu #dizhi ul li:hover {
+      background: #ccc; }
+  #denglu .right {
+    width: 550px;
+    height: 30px;
+    float: right; }
+    #denglu .right ul li {
       float: left;
-      line-height: 50px; }
-      main .wrap01 .h301 span:nth-child(1) img {
-        margin-top: 10px; }
-    main .wrap01 .h301 span:nth-child(2) {
-      float: right;
-      line-height: 50px; }
-    main .wrap01 .h301 span a:hover {
-      text-decoration: underline;
-      cursor: pointer; }
-  main .wrap01 .wrap01Xia {
-    float: left;
-    height: 650px; }
-    main .wrap01 .wrap01Xia .wrap01Left {
-      float: left;
-      width: 244px;
-      height: 615px;
-      overflow: hidden; }
-      main .wrap01 .wrap01Xia .wrap01Left img {
-        width: 244px;
-        height: 596px; }
-    main .wrap01 .wrap01Xia .wrap01Right {
-      float: right;
-      height: 600px;
-      width: 960px; }
-      main .wrap01 .wrap01Xia .wrap01Right dl {
-        float: left;
-        width: 230px;
-        margin: 7px 5px;
-        cursor: pointer; }
-        main .wrap01 .wrap01Xia .wrap01Right dl dt {
-          height: 230px;
-          overflow: hidden; }
-          main .wrap01 .wrap01Xia .wrap01Right dl dt img {
-            width: 230px; }
-        main .wrap01 .wrap01Xia .wrap01Right dl dd p span {
-          font-size: 14px; }
-          main .wrap01 .wrap01Xia .wrap01Right dl dd p span a:hover {
-            cursor: pointer;
-            text-decoration: underline; }
-        main .wrap01 .wrap01Xia .wrap01Right dl dd p #lihejia {
+      margin-left: 30px;
+      color: #999;
+      font-size: 12px;
+      line-height: 29px; }
+      #denglu .right ul li a {
+        color: #999;
+        font-size: 12px; }
+      #denglu .right ul li a:hover {
+        color: red;
+        border-bottom: 1px solid red; }
+      #denglu .right ul li span {
+        font-weight: bold; }
+    #denglu .right ul .guogao {
+      padding: 10px; }
+    #denglu .right ul #shg {
+      padding: 10px; }
+    #denglu .right .gong {
+      width: 245px;
+      height: 168px;
+      border-left: 1px solid #ccc;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+      box-shadow: 4px 1px 9px #ccc,  1px 1px 5px #ccc;
+      position: absolute;
+      top: 30px;
+      right: 233px;
+      background: #fff;
+      z-index: 99;
+      display: none; }
+      #denglu .right .gong p {
+        line-height: 40px;
+        border-bottom: 1px solid #ccc; }
+        #denglu .right .gong p a {
+          font-size: 14px;
+          margin-left: 20px;
           color: #999; }
-        main .wrap01 .wrap01Xia .wrap01Right dl dd p:nth-child(1) {
+        #denglu .right .gong p a:hover {
+          color: red; }
+      #denglu .right .gong span {
+        margin-left: 80px; }
+        #denglu .right .gong span a {
+          color: green;
+          font-size: 14px; }
+    #denglu .right .shouji {
+      width: 292px;
+      height: 292px;
+      box-shadow: 5px 5px 5px #ccc, 5px 5px 5px #ccc;
+      position: absolute;
+      top: 31px;
+      right: 55px;
+      background: #fff;
+      z-index: 99;
+      display: none; }
+      #denglu .right .shouji p {
+        text-align: center;
+        line-height: 30px;
+        font-size: 12px; }
+        #denglu .right .shouji p span {
+          color: green; }
+      #denglu .right .shouji div {
+        width: 100%;
+        height: 117px;
+        border-bottom: 1px solid #ccc;
+        margin-top: 12px; }
+        #denglu .right .shouji div img {
+          width: 100px;
+          margin-left: 20px;
+          float: left; }
+        #denglu .right .shouji div #guoweixin {
           float: left;
-          width: 120px; }
-        main .wrap01 .wrap01Xia .wrap01Right dl dd p:nth-child(2) {
-          float: right;
-          width: 80px; }
-          main .wrap01 .wrap01Xia .wrap01Right dl dd p:nth-child(2) img {
-            float: right; }
+          margin-left: 10px; }
 
-main .wrap02 {
-  width: 1204px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  display: flex;
-  display: -webkit-flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-  main .wrap02 .h302 {
+.gouwu {
+  width: 1365px;
+  height: 105px;
+  box-shadow: 1px 5px 3px #ccc; }
+  .gouwu .logo {
+    float: left; }
+  .gouwu .lie {
+    width: 500px;
+    height: 105px;
+    line-height: 105px;
+    float: left; }
+    .gouwu .lie ul li {
+      float: left;
+      padding-left: 25px;
+      padding-right: 25px; }
+      .gouwu .lie ul li a {
+        color: #000; }
+      .gouwu .lie ul li a:hover {
+        color: red;
+        border-bottom: 1px solid red;
+        background: #ccc; }
+    .gouwu .lie ul .guo {
+      color: green; }
+  .gouwu .che {
+    width: 300px;
+    height: 105px;
+    float: right;
+    margin-right: 20px; }
+    .gouwu .che input {
+      border-top-style: none;
+      border-left-style: none;
+      border-right-style: none;
+      border-bottom-color: #000;
+      margin-top: 50px; }
+    .gouwu .che .txt {
+      color: #ccc;
+      font-size: 12px; }
+
+main {
+  clear: both; }
+  main .lunbo {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 1; }
+    main .lunbo .juan {
+      width: 700%;
+      position: absolute; }
+      main .lunbo .juan p {
+        float: left;
+        width: 14.28571%; }
+        main .lunbo .juan p a {
+          width: 100%; }
+          main .lunbo .juan p a img {
+            width: 100%; }
+  main .wrapJing {
     width: 1204px;
+    margin: 0 auto; }
+    main .wrapJing ul {
+      width: 100%;
+      display: flex;
+      display: -webkit-flex;
+      justify-content: space-between;
+      padding: 10px 0 40px 0px; }
+      main .wrapJing ul li {
+        width: 22%; }
+        main .wrapJing ul li a img {
+          width: 100%; }
+  main .wrap01 {
+    clear: both;
+    width: 1204px;
+    margin: 0 auto;
+    padding-bottom: 80px;
     border-top: 1px solid #999; }
-    main .wrap02 .h302 span a:hover {
-      cursor: pointer;
-      text-decoration: underline; }
-    main .wrap02 .h302 span:nth-child(1) {
-      float: left;
-      line-height: 50px; }
-      main .wrap02 .h302 span:nth-child(1) img {
-        margin-top: 10px; }
-    main .wrap02 .h302 span:nth-child(2) {
-      float: right;
-      line-height: 50px; }
-  main .wrap02 dl {
-    width: 230px;
-    margin: 5px 5px;
-    cursor: pointer; }
-    main .wrap02 dl dt {
-      height: 230px;
-      overflow: hidden;
-      position: relative; }
-      main .wrap02 dl dt img {
-        width: 230px; }
-      main .wrap02 dl dt p {
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding: 5px;
-        background: red;
-        color: white; }
-    main .wrap02 dl dd p:nth-child(1) {
-      float: left;
-      width: 130px; }
-    main .wrap02 dl dd p:nth-child(2) {
-      float: right;
-      width: 70px; }
-      main .wrap02 dl dd p:nth-child(2) img {
-        float: right; }
-    main .wrap02 dl dd p #lihejia {
-      color: #999; }
-    main .wrap02 dl dd p span {
-      font-size: 14px; }
-
-main .xinXiLan {
-  width: 1200px;
-  margin: 0 auto; }
-  main .xinXiLan img {
+    main .wrap01 .h301 {
+      width: 1204px;
+      height: 70px;
+      float: left; }
+      main .wrap01 .h301 span:nth-child(1) {
+        float: left;
+        line-height: 50px; }
+        main .wrap01 .h301 span:nth-child(1) img {
+          margin-top: 10px; }
+      main .wrap01 .h301 span:nth-child(2) {
+        float: right;
+        line-height: 50px; }
+      main .wrap01 .h301 span a:hover {
+        text-decoration: underline;
+        cursor: pointer; }
+    main .wrap01 .wrap01Xia {
+      float: left; }
+      main .wrap01 .wrap01Xia .wrap01Left {
+        float: left;
+        width: 244px;
+        height: 615px;
+        overflow: hidden; }
+        main .wrap01 .wrap01Xia .wrap01Left img {
+          width: 244px;
+          height: 596px; }
+      main .wrap01 .wrap01Xia .wrap01Right {
+        float: right;
+        height: 600px;
+        width: 960px; }
+        main .wrap01 .wrap01Xia .wrap01Right dl {
+          float: left;
+          width: 230px;
+          margin: 7px 5px;
+          cursor: pointer; }
+          main .wrap01 .wrap01Xia .wrap01Right dl dt {
+            height: 230px;
+            overflow: hidden; }
+            main .wrap01 .wrap01Xia .wrap01Right dl dt img {
+              width: 230px; }
+          main .wrap01 .wrap01Xia .wrap01Right dl dd p span {
+            font-size: 14px; }
+            main .wrap01 .wrap01Xia .wrap01Right dl dd p span a:hover {
+              cursor: pointer;
+              text-decoration: underline; }
+          main .wrap01 .wrap01Xia .wrap01Right dl dd p #lihejia {
+            color: #999; }
+          main .wrap01 .wrap01Xia .wrap01Right dl dd p:nth-child(1) {
+            float: left;
+            width: 120px; }
+          main .wrap01 .wrap01Xia .wrap01Right dl dd p:nth-child(2) {
+            float: right;
+            width: 80px; }
+            main .wrap01 .wrap01Xia .wrap01Right dl dd p:nth-child(2) img {
+              float: right; }
+  main .wrap02 {
+    clear: both;
+    width: 1204px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    main .wrap02 .h302 {
+      width: 1204px;
+      border-top: 1px solid #999; }
+      main .wrap02 .h302 span a:hover {
+        cursor: pointer;
+        text-decoration: underline; }
+      main .wrap02 .h302 span:nth-child(1) {
+        float: left;
+        line-height: 50px; }
+        main .wrap02 .h302 span:nth-child(1) img {
+          margin-top: 10px; }
+      main .wrap02 .h302 span:nth-child(2) {
+        float: right;
+        line-height: 50px; }
+    main .wrap02 dl {
+      width: 230px;
+      margin: 5px 5px;
+      cursor: pointer; }
+      main .wrap02 dl dt {
+        height: 230px;
+        overflow: hidden; }
+        main .wrap02 dl dt img {
+          width: 230px; }
+        main .wrap02 dl dt p {
+          top: 0;
+          left: 0;
+          padding: 5px;
+          background: red;
+          color: white; }
+      main .wrap02 dl dd p:nth-child(1) {
+        float: left;
+        width: 130px; }
+      main .wrap02 dl dd p:nth-child(2) {
+        float: right;
+        width: 70px; }
+        main .wrap02 dl dd p:nth-child(2) img {
+          float: right; }
+      main .wrap02 dl dd p #lihejia {
+        color: #999; }
+      main .wrap02 dl dd p span {
+        font-size: 14px; }
+  main .xinXiLan {
     width: 1200px;
-    margin-bottom: 50px; }
-
-main .wrap03 {
-  width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  display: flex;
-  display: -webkit-flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-  main .wrap03 .h303 {
-    width: 1204px;
-    border-top: 1px solid #999; }
-    main .wrap03 .h303 span:nth-child(1) {
-      float: left;
-      line-height: 50px; }
-      main .wrap03 .h303 span:nth-child(1) img {
-        margin-top: 10px; }
-    main .wrap03 .h303 span:nth-child(2) {
-      float: right;
-      line-height: 50px; }
-    main .wrap03 .h303 span a:hover {
-      cursor: pointer;
-      text-decoration: underline; }
-  main .wrap03 dl {
-    width: 230px;
-    margin: 5px 5px;
-    cursor: pointer; }
-    main .wrap03 dl dt {
-      height: 230px;
-      overflow: hidden;
-      position: relative; }
-      main .wrap03 dl dt img {
-        width: 230px; }
-      main .wrap03 dl dt p {
-        position: absolute;
-        top: 0;
-        left: 0;
-        padding: 5px;
-        background: #f00;
-        color: white; }
-    main .wrap03 dl dd p:nth-child(1) {
-      float: left;
-      width: 100px; }
-    main .wrap03 dl dd p:nth-child(2) {
-      float: right;
-      line-height: 50px; }
-      main .wrap03 dl dd p:nth-child(2) img {
-        float: right; }
-    main .wrap03 dl dd p span a:hover {
-      cursor: pointer;
-      text-decoration: underline; }
-    main .wrap03 dl dd p #lihejia {
-      color: #999; }
-
-main .niuNan {
-  width: 1200px;
-  margin: 0 auto; }
-  main .niuNan img {
+    margin: 0 auto; }
+    main .xinXiLan img {
+      width: 1200px;
+      margin-bottom: 50px; }
+  main .wrap03 {
     width: 1200px;
-    margin-bottom: 50px; }
-
-main .wrap04 {
-  width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 50px;
-  display: flex;
-  display: -webkit-flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
-  main .wrap04 .h304 {
-    width: 1204px;
-    border-top: 1px solid #999; }
-    main .wrap04 .h304 span:nth-child(1) {
-      float: left;
-      line-height: 50px; }
-      main .wrap04 .h304 span:nth-child(1) img {
-        margin-top: 10px; }
-    main .wrap04 .h304 span:nth-child(2) {
-      float: right;
-      line-height: 50px; }
-    main .wrap04 .h304 span a:hover {
-      cursor: pointer;
-      text-decoration: underline; }
-  main .wrap04 dl {
-    width: 230px;
-    margin: 5px 5px;
-    cursor: pointer; }
-    main .wrap04 dl dt {
-      height: 230px;
-      overflow: hidden; }
-      main .wrap04 dl dt img {
-        width: 230px; }
-    main .wrap04 dl dd p:nth-child(1) {
-      float: left;
-      width: 110px; }
-    main .wrap04 dl dd p:nth-child(2) {
-      float: right;
-      line-height: 50px; }
-      main .wrap04 dl dd p:nth-child(2) img {
-        float: right; }
-    main .wrap04 dl dd p span a:hover {
-      cursor: pointer;
-      text-decoration: underline; }
-    main .wrap04 dl dd p #lihejia {
-      color: #999; }
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    main .wrap03 .h303 {
+      width: 1204px;
+      border-top: 1px solid #999; }
+      main .wrap03 .h303 span:nth-child(1) {
+        float: left;
+        line-height: 50px; }
+        main .wrap03 .h303 span:nth-child(1) img {
+          margin-top: 10px; }
+      main .wrap03 .h303 span:nth-child(2) {
+        float: right;
+        line-height: 50px; }
+      main .wrap03 .h303 span a:hover {
+        cursor: pointer;
+        text-decoration: underline; }
+    main .wrap03 dl {
+      width: 230px;
+      margin: 5px 5px;
+      cursor: pointer; }
+      main .wrap03 dl dt {
+        height: 230px;
+        overflow: hidden; }
+        main .wrap03 dl dt img {
+          width: 230px; }
+        main .wrap03 dl dt p {
+          top: 0;
+          left: 0;
+          padding: 5px;
+          background: #f00;
+          color: white; }
+      main .wrap03 dl dd p:nth-child(1) {
+        float: left;
+        width: 100px; }
+      main .wrap03 dl dd p:nth-child(2) {
+        float: right;
+        line-height: 50px; }
+        main .wrap03 dl dd p:nth-child(2) img {
+          float: right; }
+      main .wrap03 dl dd p span a:hover {
+        cursor: pointer;
+        text-decoration: underline; }
+      main .wrap03 dl dd p #lihejia {
+        color: #999; }
+  main .niuNan {
+    width: 1200px;
+    margin: 0 auto; }
+    main .niuNan img {
+      width: 1200px;
+      margin-bottom: 50px; }
+  main .wrap04 {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    main .wrap04 .h304 {
+      width: 1204px;
+      border-top: 1px solid #999; }
+      main .wrap04 .h304 span:nth-child(1) {
+        float: left;
+        line-height: 50px; }
+        main .wrap04 .h304 span:nth-child(1) img {
+          margin-top: 10px; }
+      main .wrap04 .h304 span:nth-child(2) {
+        float: right;
+        line-height: 50px; }
+      main .wrap04 .h304 span a:hover {
+        cursor: pointer;
+        text-decoration: underline; }
+    main .wrap04 dl {
+      width: 230px;
+      margin: 5px 5px;
+      cursor: pointer; }
+      main .wrap04 dl dt {
+        height: 230px;
+        overflow: hidden; }
+        main .wrap04 dl dt img {
+          width: 230px; }
+      main .wrap04 dl dd p:nth-child(1) {
+        float: left;
+        width: 110px; }
+      main .wrap04 dl dd p:nth-child(2) {
+        float: right;
+        line-height: 50px; }
+        main .wrap04 dl dd p:nth-child(2) img {
+          float: right; }
+      main .wrap04 dl dd p span a:hover {
+        cursor: pointer;
+        text-decoration: underline; }
+      main .wrap04 dl dd p #lihejia {
+        color: #999; }
 
 footer {
+  overflow: hidden;
   width: 1204px;
   margin: 0 auto;
   border-top: 1px solid #aaa; }
@@ -310,3 +494,10 @@ footer {
         footer .jingshi div .GuoYuanWangGou dl .wanggou a img {
           width: 36px;
           margin-left: 15px; }
+
+.ce {
+  position: fixed;
+  right: 0;
+  bottom: 0; }
+  .ce img {
+    width: 100%; }
