@@ -184,12 +184,74 @@ body {
       padding: 20px; }
     .huiyuanqu .huiyuandenglu div {
       overflow: hidden;
-      margin-top: 20px; }
+      margin-top: 20px;
+      margin-bottom: 30px; }
       .huiyuanqu .huiyuandenglu div .denglulogo {
-        float: left; }
-      .huiyuanqu .huiyuandenglu div .dengluinput {
         float: left;
-        margin-left: 50px; }
+        position: relative; }
+        .huiyuanqu .huiyuandenglu div .denglulogo .hyuzhc01 {
+          position: absolute;
+          left: 165px;
+          bottom: 20px;
+          width: 160px;
+          height: 50px;
+          line-height: 50px;
+          color: green;
+          font-size: 20px;
+          text-align: center;
+          border-color: green;
+          border: 1px solid green;
+          border-radius: 6px; }
+      .huiyuanqu .huiyuandenglu div .dengluinput {
+        float: right;
+        color: #999;
+        margin-top: 50px; }
+        .huiyuanqu .huiyuandenglu div .dengluinput form p {
+          overflow: hidden; }
+          .huiyuanqu .huiyuandenglu div .dengluinput form p .shoujihao {
+            margin-top: 30px;
+            width: 300px;
+            height: 20px;
+            padding: 10px; }
+          .huiyuanqu .huiyuandenglu div .dengluinput form p .password {
+            margin-top: 30px;
+            width: 300px;
+            height: 20px;
+            padding: 10px; }
+          .huiyuanqu .huiyuandenglu div .dengluinput form p .leftSpan {
+            float: left;
+            margin-top: 20px;
+            margin-left: 68px; }
+          .huiyuanqu .huiyuandenglu div .dengluinput form p .rightSpan {
+            float: right;
+            margin-top: 20px; }
+            .huiyuanqu .huiyuandenglu div .dengluinput form p .rightSpan a {
+              color: #999;
+              text-decoration: underline; }
+          .huiyuanqu .huiyuandenglu div .dengluinput form p .HYdenglu {
+            clear: both;
+            width: 140px;
+            height: 40px;
+            background: green;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 68px; }
+          .huiyuanqu .huiyuandenglu div .dengluinput form p .hyuzhc02 {
+            float: right;
+            width: 140px;
+            height: 40px;
+            line-height: 40px;
+            color: green;
+            font-size: 20px;
+            text-align: center;
+            background: #eee;
+            border-color: green;
+            border: 1px solid green;
+            border-radius: 6px;
+            margin-top: 20px; }
 
 .wei {
   width: 1365px;

@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none; }
+
+ul, ol, li, dl, dt, dd {
+  list-style: none; }
+
+header {
+  width: 100%; }
+  header img {
+    width: 100%; }
+
+.youHui {
+  width: 100%; }
+  .youHui .youHuiTu {
+    width: 100%; }
+    .youHui .youHuiTu img {
+      width: 100%; }
+  .youHui #shangPin01 {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    -ms-display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .youHui #shangPin01 li {
+      width: 300px;
+      overflow: hidden;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+      .youHui #shangPin01 li a div {
+        position: relative;
+        width: 100%;
+        overflow: hidden; }
+        .youHui #shangPin01 li a div img {
+          width: 100%;
+          transition: 0.5s all; }
+        .youHui #shangPin01 li a div .left {
+          float: left;
+          color: orange;
+          line-height: 50px; }
+          .youHui #shangPin01 li a div .left .zheng {
+            font-size: 30px; }
+        .youHui #shangPin01 li a div .right {
+          float: right;
+          width: 50px;
+          height: 50px;
+          border: 1px solid #999;
+          border-radius: 50%;
+          text-align: center;
+          font-size: 40px;
+          color: orange; }
+        .youHui #shangPin01 li a div .Hot {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 80px;
+          height: 80px;
+          background: red;
+          color: white;
+          border-radius: 50%;
+          text-align: center;
+          z-index: 9; }
+      .youHui #shangPin01 li a h3 {
+        color: black; }
+      .youHui #shangPin01 li:hover a div img {
+        transform: scale(1.1); }
+
+.reMai {
+  width: 100%; }
+  .reMai .reMaiTu {
+    width: 100%; }
+    .reMai .reMaiTu img {
+      width: 100%; }
+  .reMai #shangPin02 {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    -ms-display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .reMai #shangPin02 li {
+      width: 300px;
+      overflow: hidden;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+      .reMai #shangPin02 li a div {
+        position: relative;
+        width: 100%;
+        overflow: hidden; }
+        .reMai #shangPin02 li a div img {
+          width: 100%;
+          transition: 0.5s all; }
+        .reMai #shangPin02 li a div .left {
+          float: left;
+          color: orange;
+          line-height: 50px; }
+          .reMai #shangPin02 li a div .left .zheng {
+            font-size: 30px; }
+        .reMai #shangPin02 li a div .right {
+          float: right;
+          width: 50px;
+          height: 50px;
+          border: 1px solid #999;
+          border-radius: 50%;
+          text-align: center;
+          font-size: 40px;
+          color: orange; }
+        .reMai #shangPin02 li a div .Hot {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 80px;
+          height: 80px;
+          background: red;
+          color: white;
+          border-radius: 50%;
+          text-align: center;
+          z-index: 9; }
+      .reMai #shangPin02 li a h3 {
+        color: black; }
+      .reMai #shangPin02 li:hover a div img {
+        transform: scale(1.1); }
+
+.zianGuoLM {
+  width: 100%; }
+  .zianGuoLM .zianGuoLMTu {
+    width: 100%; }
+    .zianGuoLM .zianGuoLMTu img {
+      width: 100%; }
+  .zianGuoLM #shangPin03 {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    -ms-display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .zianGuoLM #shangPin03 li {
+      width: 300px;
+      overflow: hidden;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+      .zianGuoLM #shangPin03 li a div {
+        position: relative;
+        width: 100%;
+        overflow: hidden; }
+        .zianGuoLM #shangPin03 li a div img {
+          width: 100%;
+          transition: 0.5s all; }
+        .zianGuoLM #shangPin03 li a div .left {
+          float: left;
+          color: orange;
+          line-height: 50px; }
+          .zianGuoLM #shangPin03 li a div .left .zheng {
+            font-size: 30px; }
+        .zianGuoLM #shangPin03 li a div .right {
+          float: right;
+          width: 50px;
+          height: 50px;
+          border: 1px solid #999;
+          border-radius: 50%;
+          text-align: center;
+          font-size: 40px;
+          color: orange; }
+        .zianGuoLM #shangPin03 li a div .Hot {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 80px;
+          height: 80px;
+          background: red;
+          color: white;
+          border-radius: 50%;
+          text-align: center;
+          z-index: 9; }
+      .zianGuoLM #shangPin03 li a h3 {
+        color: black; }
+      .zianGuoLM #shangPin03 li:hover a div img {
+        transform: scale(1.1); }
+
+.chuFang {
+  width: 100%; }
+  .chuFang .chuFangTu {
+    width: 100%; }
+    .chuFang .chuFangTu img {
+      width: 100%; }
+  .chuFang #shangPin04 {
+    margin: 0 auto;
+    width: 960px;
+    display: flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -o-display: flex;
+    -ms-display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .chuFang #shangPin04 li {
+      width: 300px;
+      overflow: hidden;
+      margin-top: 20px;
+      margin-bottom: 30px; }
+      .chuFang #shangPin04 li a div {
+        position: relative;
+        width: 100%;
+        overflow: hidden; }
+        .chuFang #shangPin04 li a div img {
+          width: 100%;
+          transition: 0.5s all; }
+        .chuFang #shangPin04 li a div .left {
+          float: left;
+          color: orange;
+          line-height: 50px; }
+          .chuFang #shangPin04 li a div .left .zheng {
+            font-size: 30px; }
+        .chuFang #shangPin04 li a div .right {
+          float: right;
+          width: 50px;
+          height: 50px;
+          border: 1px solid #999;
+          border-radius: 50%;
+          text-align: center;
+          font-size: 40px;
+          color: orange; }
+        .chuFang #shangPin04 li a div .Hot {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 80px;
+          height: 80px;
+          background: red;
+          color: white;
+          border-radius: 50%;
+          text-align: center;
+          z-index: 9; }
+      .chuFang #shangPin04 li a h3 {
+        color: black; }
+      .chuFang #shangPin04 li:hover a div img {
+        transform: scale(1.1); }
+
+footer {
+  width: 100%; }
+  footer img {
+    width: 100%; }
+
+.ce {
+  position: fixed;
+  right: 0;
+  bottom: 0; }
+  .ce img {
+    width: 80%; }
+
+@media screen and (max-width: 1300px) {
+  header {
+    width: 1283px; }
+  .youHui .youHuiTu {
+    width: 1283px; }
+  .reMai .reMaiTu {
+    width: 1283px; }
+  .zianGuoLM .zianGuoLMTu {
+    width: 1283px; }
+  .chuFang .chuFangTu {
+    width: 1283px; }
+  footer {
+    width: 1283px; } }
